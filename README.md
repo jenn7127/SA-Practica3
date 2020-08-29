@@ -22,7 +22,11 @@ _1. Ejecutar las 3 aplicaciones desde visual estudio_
 
 _2. En consola se verificacara cual es el servicio que se esta consumiento_
 
+_3. Video con explicacion: https://youtu.be/i8BW2aWjO5g
+
 
 ## Autores ✒️
 
 * **Jennifer Rodriguez** 
+
+
