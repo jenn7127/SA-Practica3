@@ -1,0 +1,7 @@
+D:\Tareas\SA\LAB\practica3\WebService2\WebService2\bin\WebService2.dll.config
+D:\Tareas\SA\LAB\practica3\WebService2\WebService2\bin\WebService2.dll
+D:\Tareas\SA\LAB\practica3\WebService2\WebService2\bin\WebService2.pdb
+D:\Tareas\SA\LAB\practica3\WebService2\WebService2\obj\Debug\WebService2.csprojAssemblyReference.cache
+D:\Tareas\SA\LAB\practica3\WebService2\WebService2\obj\Debug\WebService2.csproj.CoreCompileInputs.cache
+D:\Tareas\SA\LAB\practica3\WebService2\WebService2\obj\Debug\WebService2.dll
+D:\Tareas\SA\LAB\practica3\WebService2\WebService2\obj\Debug\WebService2.pdb

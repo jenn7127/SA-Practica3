@@ -1,0 +1,7 @@
+D:\Tareas\SA\LAB\practica3\WebService3\WebService3\obj\Debug\WebService3.csprojAssemblyReference.cache
+D:\Tareas\SA\LAB\practica3\WebService3\WebService3\obj\Debug\WebService3.csproj.CoreCompileInputs.cache
+D:\Tareas\SA\LAB\practica3\WebService3\WebService3\bin\WebService3.dll.config
+D:\Tareas\SA\LAB\practica3\WebService3\WebService3\bin\WebService3.dll
+D:\Tareas\SA\LAB\practica3\WebService3\WebService3\bin\WebService3.pdb
+D:\Tareas\SA\LAB\practica3\WebService3\WebService3\obj\Debug\WebService3.dll
+D:\Tareas\SA\LAB\practica3\WebService3\WebService3\obj\Debug\WebService3.pdb

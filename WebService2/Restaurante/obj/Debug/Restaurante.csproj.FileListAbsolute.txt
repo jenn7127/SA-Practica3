@@ -1,0 +1,10 @@
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\bin\Debug\Restaurante.exe.config
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\bin\Debug\Restaurante.exe
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\bin\Debug\Restaurante.pdb
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\obj\Debug\Restaurante.csprojAssemblyReference.cache
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\obj\Debug\Restaurante.Properties.Resources.resources
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\obj\Debug\Restaurante.csproj.GenerateResource.cache
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\obj\Debug\Restaurante.csproj.CoreCompileInputs.cache
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\obj\Debug\Restaurante.exe
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\obj\Debug\Restaurante.pdb
+D:\Tareas\SA\LAB\practica3\WebService2\Restaurante\obj\Debug\Restaurante.Resturante.resources
