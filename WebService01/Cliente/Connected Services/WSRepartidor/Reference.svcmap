@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0dfbab77-253d-453c-a686-36cdbda59e90" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:56887/WSRepartidor.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSRepartidor.xsd" MetadataType="Schema" ID="0ae48883-212b-4c5b-ab06-dd51493cc861" SourceId="1" SourceUrl="http://localhost:56887/WSRepartidor.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSRepartidor1.xsd" MetadataType="Schema" ID="6bb77db0-ab8e-46d1-b38b-c17d6040f85f" SourceId="1" SourceUrl="http://localhost:56887/WSRepartidor.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSRepartidor2.xsd" MetadataType="Schema" ID="4923e6af-b246-49ca-aec0-2091bfbdb9a3" SourceId="1" SourceUrl="http://localhost:56887/WSRepartidor.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSRepartidor.disco" MetadataType="Disco" ID="c094780c-39b9-4a25-a31e-c44829c9b8f9" SourceId="1" SourceUrl="http://localhost:56887/WSRepartidor.svc?disco" />
+    <MetadataFile FileName="WSRepartidor.wsdl" MetadataType="Wsdl" ID="5813815d-084a-4934-ac90-b8235222da89" SourceId="1" SourceUrl="http://localhost:56887/WSRepartidor.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
