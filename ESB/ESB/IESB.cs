@@ -12,16 +12,32 @@ namespace ESB
     [ServiceContract]
     public interface IESB
     {
+        [OperationContract]
+        Orden ObtenerEstado(int NoOrden);
 
         [OperationContract]
-        string GetData(int value);
+        string CrearOrden();
 
-        [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
+
 
         // TODO: agregue aquí sus operaciones de servicio
     }
 
+
+    [DataContract]
+    public class Orden : BaseResponse
+    {
+
+        [DataMember]
+        public string estado { get; set; }
+    }
+
+    [DataContract]
+    public class BaseResponse
+    {
+        [DataMember]
+        public string Error { get; set; }
+    }
 
     // Utilice un contrato de datos, como se ilustra en el ejemplo siguiente, para agregar tipos compuestos a las operaciones de servicio.
     [DataContract]

@@ -12,22 +12,36 @@ namespace ESB
     // NOTE: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione Service1.svc o Service1.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class ESB : IESB
     {
-        public string GetData(int value)
+
+
+
+        public string CrearOrden()
         {
-            return string.Format("You entered: {0}", value);
+
+            var client = new WebServRestaurante.WSRestaurante();
+            return client.CrearOrden();
+            
         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
+        public Orden ObtenerEstado(int NoOrden)
         {
-            if (composite == null)
+
+            
+            var client = new WebServRestaurante.WSRestaurante();
+            string estado1 = client.ObtenerEstado(NoOrden, true).estado;
+            string error = client.ObtenerEstado(NoOrden, true).Error;
+            if (estado1 == null)
             {
-                throw new ArgumentNullException("composite");
+                return new Orden() { Error = error };
             }
-            if (composite.BoolValue)
+            else
             {
-                composite.StringValue += "Suffix";
+                return new Orden() { estado = estado1 };
             }
-            return composite;
+
+
         }
+
+
     }
 }
