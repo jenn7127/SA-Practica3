@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d74fbcd1-7b5c-423d-9e4a-866b1c756416" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51323/ESB.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ESB.xsd" MetadataType="Schema" ID="7622b253-d6a5-4e2b-bd34-07a0d142e8b4" SourceId="1" SourceUrl="http://localhost:51323/ESB.svc?xsd=xsd2" />
+    <MetadataFile FileName="ESB.wsdl" MetadataType="Wsdl" ID="2a53b546-6e64-42ea-8c58-2fa40a1e1074" SourceId="1" SourceUrl="http://localhost:51323/ESB.svc?wsdl" />
+    <MetadataFile FileName="ESB1.xsd" MetadataType="Schema" ID="3d40af60-60b1-4596-bbe4-2a47d70595f8" SourceId="1" SourceUrl="http://localhost:51323/ESB.svc?xsd=xsd1" />
+    <MetadataFile FileName="ESB.disco" MetadataType="Disco" ID="61564aa9-f8a6-4e2f-9e7b-8e95db795f12" SourceId="1" SourceUrl="http://localhost:51323/ESB.svc?disco" />
+    <MetadataFile FileName="ESB2.xsd" MetadataType="Schema" ID="2eff9586-8445-4094-9878-8c4e3ae941e4" SourceId="1" SourceUrl="http://localhost:51323/ESB.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

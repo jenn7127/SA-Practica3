@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\WsRepartidor\Reference.cs">
+    <Compile Include="Connected Services\WSEsb\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -73,18 +73,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Connected Services\WsRepartidor\Restaurante.WsRepartidor.Orden.datasource">
+    <None Include="Connected Services\WSEsb\ESB.wsdl" />
+    <None Include="Connected Services\WSEsb\ESB.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WSEsb\ESB1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WSEsb\ESB2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\WSEsb\Restaurante.WSEsb.Orden.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\WsRepartidor\WSRepartidor.wsdl" />
-    <None Include="Connected Services\WsRepartidor\WSRepartidor.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\WsRepartidor\WSRepartidor1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\WsRepartidor\WSRepartidor2.xsd">
-      <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -103,19 +103,19 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\WsRepartidor\" />
+    <WCFMetadataStorage Include="Connected Services\WSEsb\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WsRepartidor\WSRepartidor.disco" />
+    <None Include="Connected Services\WSEsb\ESB.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WsRepartidor\configuration91.svcinfo" />
+    <None Include="Connected Services\WSEsb\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WsRepartidor\configuration.svcinfo" />
+    <None Include="Connected Services\WSEsb\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WsRepartidor\Reference.svcmap">
+    <None Include="Connected Services\WSEsb\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

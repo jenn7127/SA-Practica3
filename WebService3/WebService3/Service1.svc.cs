@@ -17,7 +17,7 @@ namespace WebService3
             return "Estado de Orden"+ NoOrden+" Cambiado";
         }
 
-        public Orden ObtenerEstado(int NoOrden)
+        public Orden ObtenerEstadoCli(int NoOrden)
         {
 
             if (NoOrden == 2)

@@ -15,7 +15,7 @@ namespace WebService3
 
 
         [OperationContract]
-        Orden ObtenerEstado(int NoOrden);
+        Orden ObtenerEstadoCli(int NoOrden);
 
 
         [OperationContract]

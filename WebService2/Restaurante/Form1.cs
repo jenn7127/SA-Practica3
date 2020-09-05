@@ -30,7 +30,7 @@ namespace Restaurante
         private void btnSendOrden_Click(object sender, EventArgs e)
         {
             int orden = short.Parse(textBox1.Text);
-            using (WsRepartidor.WSRepartidorClient client = new WsRepartidor.WSRepartidorClient())
+            using (WSEsb.ESBClient client = new WSEsb.ESBClient())
             {
                 lbEnviarOrden.Text=client.EnviarOrden(orden);
                 Console.WriteLine("Cambio estado de orden del webservice del ResRepartidor en orden: " + orden);

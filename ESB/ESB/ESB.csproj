@@ -66,6 +66,14 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Content Include="Web References\WebServlast\Orden.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\WebServlast\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\WebServlast\Service1.disco" />
     <Content Include="Web References\WebServRestaurante\Orden.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </Content>
@@ -73,15 +81,25 @@
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
-    <Content Include="Web References\webReferenceTest\Orden.datasource">
+    <None Include="Web References\WebServlast\Service1.wsdl" />
+    <None Include="Web References\WebServlast\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\WebServlast\Service10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\WebServlast\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\WebServRestaurante\WSRestaurante.disco" />
+    <Content Include="Web References\WebSRepartidor\Orden.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </Content>
-    <Content Include="Web References\webReferenceTest\Reference.map">
+    <Content Include="Web References\WebSRepartidor\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
-    <None Include="Web References\webReferenceTest\WSRestaurante.wsdl" />
-    <None Include="Web References\WebServRestaurante\WSRestaurante.disco" />
+    <None Include="Web References\WebSRepartidor\WSRepartidor.disco" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,12 +113,17 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Web References\webReferenceTest\Reference.cs">
+    <Compile Include="Web References\WebServlast\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
     <Compile Include="Web References\WebServRestaurante\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebSRepartidor\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -118,6 +141,16 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Web References\WebServRestaurante\WSRestaurante1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\WebSRepartidor\WSRepartidor.wsdl" />
+    <None Include="Web References\WebSRepartidor\WSRepartidor.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\WebSRepartidor\WSRepartidor0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\WebSRepartidor\WSRepartidor1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Web.Debug.config">
@@ -145,16 +178,27 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>ESB_WebServRestaurante_WSRestaurante</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://localhost:50939/WSRestaurante.svc%3fsingleWsdl">
+    <WebReferenceUrl Include="http://localhost:56887/WSRepartidor.svc">
       <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\webReferenceTest\</RelPath>
-      <UpdateFromURL>http://localhost:50939/WSRestaurante.svc%3fsingleWsdl</UpdateFromURL>
+      <RelPath>Web References\WebSRepartidor\</RelPath>
+      <UpdateFromURL>http://localhost:56887/WSRepartidor.svc</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
       </CachedDynamicPropName>
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>ESB_webReferenceTest_WSRestaurante</CachedSettingsPropName>
+      <CachedSettingsPropName>ESB_WebSRepartidor_WSRepartidor</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:57691/Service1.svc">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebServlast\</RelPath>
+      <UpdateFromURL>http://localhost:57691/Service1.svc</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ESB_WebServlast_Service1</CachedSettingsPropName>
     </WebReferenceUrl>
   </ItemGroup>
   <PropertyGroup>

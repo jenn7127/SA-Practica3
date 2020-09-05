@@ -15,7 +15,7 @@ namespace WebService2
 
 
         [OperationContract]
-        Orden ObtenerEstado(int NoOrden);
+        Orden ObtenerEstadoRep(int NoOrden);
 
         [OperationContract]
         string EnviarOrden(int NoOrden);

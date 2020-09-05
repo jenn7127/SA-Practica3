@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
         private void btnEstadoRes_Click(object sender, EventArgs e)
         {
             int orden = short.Parse(txtOrdencam.Text);
-            using (WSResReparitdor.Service1Client client = new WSResReparitdor.Service1Client())
+            using (WSEsb.ESBClient client = new WSEsb.ESBClient())
             {
                 lblCambio.Text = client.CambiarEstado(orden);
                 Console.WriteLine("Cambio estado de orden del webservice del ResRepartidor en: " + orden);
@@ -55,9 +55,9 @@ namespace WindowsFormsApp1
         private void btnOrdenRep_Click(object sender, EventArgs e)
         {
             int orden = short.Parse(txtOrdenRep.Text);
-            using (WSResReparitdor.Service1Client client = new WSResReparitdor.Service1Client())
+            using (WSEsb.ESBClient client = new WSEsb.ESBClient ())
             {
-                var EstadoOrden = client.ObtenerEstado(orden);
+                var EstadoOrden = client.ObtenerEstadoCli(orden);
                 string estado = EstadoOrden.estado;
                 string error = EstadoOrden.Error;
                 if (estado != null)

@@ -32,5 +32,25 @@ namespace ESB.Properties {
                 return ((string)(this["ESB_WebServRestaurante_WSRestaurante"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:56887/WSRepartidor.svc")]
+        public string ESB_WebSRepartidor_WSRepartidor {
+            get {
+                return ((string)(this["ESB_WebSRepartidor_WSRepartidor"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:57691/Service1.svc")]
+        public string ESB_WebServlast_Service1 {
+            get {
+                return ((string)(this["ESB_WebServlast_Service1"]));
+            }
+        }
     }
 }

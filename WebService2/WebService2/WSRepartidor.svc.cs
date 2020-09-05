@@ -17,7 +17,7 @@ namespace WebService2
             return ("orden: " + NoOrden + "enviada al repartidor");
         }
 
-        public Orden ObtenerEstado(int NoOrden)
+        public Orden ObtenerEstadoRep(int NoOrden)
         {
 
              if (NoOrden == 2)

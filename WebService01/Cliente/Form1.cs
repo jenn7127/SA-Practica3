@@ -30,7 +30,7 @@ namespace Cliente
         private void btnEstadoRes_Click(object sender, EventArgs e)
         {
             int orden  = short.Parse(txtOrdenRes.Text);
-            using (WSRestaurante.WSRestauranteClient client = new WSRestaurante.WSRestauranteClient())
+            using (WSEsb.ESBClient client = new WSEsb.ESBClient())
             {
                 var EstadoOrden = client.ObtenerEstado(orden);
                 string estado= EstadoOrden.estado;
@@ -51,7 +51,7 @@ namespace Cliente
 
         private void btnNewOrden_Click(object sender, EventArgs e)
         {
-            using(WSRestaurante.WSRestauranteClient client = new WSRestaurante.WSRestauranteClient())
+            using(WSEsb.ESBClient client = new WSEsb.ESBClient())
             {
                 lblCrearOrden.Text = client.CrearOrden();
             }
@@ -60,9 +60,9 @@ namespace Cliente
         private void btnOrdenRep_Click(object sender, EventArgs e)
         {
             int orden = short.Parse(txtOrdenRep.Text);
-            using (WSRepartidor.WSRepartidorClient client = new WSRepartidor.WSRepartidorClient())
+            using (WSEsb.ESBClient client = new WSEsb.ESBClient())
             {
-                var EstadoOrden = client.ObtenerEstado(orden);
+                var EstadoOrden = client.ObtenerEstadoRep(orden);
                 string estado = EstadoOrden.estado;
                 string error = EstadoOrden.Error;
                 if (estado != null)

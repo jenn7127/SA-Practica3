@@ -18,6 +18,18 @@ namespace ESB
         [OperationContract]
         string CrearOrden();
 
+        [OperationContract]
+        Orden ObtenerEstadoRep(int NoOrden);
+
+        [OperationContract]
+        string EnviarOrden(int NoOrden);
+
+        [OperationContract]
+        Orden ObtenerEstadoCli(int NoOrden);
+
+
+        [OperationContract]
+        string CambiarEstado(int NoOrden);
 
 
         // TODO: agregue aquí sus operaciones de servicio
